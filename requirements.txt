@@ -1,0 +1,8 @@
+requirements = '''
+streamlit
+scikit-learn
+joblib
+'''
+with open("requirements.txt", "w") as f:
+    f.write(requirements.strip())
+print("✅ requirements.txt file created.")
